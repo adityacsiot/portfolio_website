@@ -1,0 +1,307 @@
+
+#navbar{
+    font-size: 40px;
+    font-family: 'Permanent Marker', 'cursive';
+  
+  }
+  .navbar-brand{
+    font-size: 60px;
+    font-family: 'Dancing Script', Courier, monospace;
+    font-weight: bolder;
+  
+  } 
+    /* CSS FILE LINKED */
+  
+  /* HERE .--->CLASS
+      #--->ID ASSIGNED TO ELEMENTS */
+  
+  
+  
+  
+  
+      .container{
+        display: grid; 
+        grid-gap: 20px;
+        /* background-color: beige; */
+      
+      }
+      
+      .nested{
+        border: 2px solid black;
+        border-radius: 3px;
+      } 
+      .nested2{
+        display: grid;  
+         grid-gap: 40px; 
+        grid-template-columns: 300px 300px 300px;
+      }
+      .child{
+        height: 490px;
+        width: 410px;
+        margin: 6px; 
+        background-color: orange;
+        border-radius: 4px; 
+      
+      }
+      
+      /* .category{
+      border: 2px solid black;
+      
+      }   */
+      #category1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background-color: beige;
+      
+      }
+      #category2,#category3,#category4,#category5{
+        height: 500px;
+      
+      
+      }  
+      #category2{
+       width: 110%;
+      
+      }
+      #category5{
+        width: 50%;
+      
+      }
+      
+      #header{
+        height: 250px;
+      }
+      
+      /* h1 {
+        text-align: center;
+        font-size: 50px;
+      } */
+      
+      #item2{
+        height: 800px;
+        background-color: beige;
+      
+      } 
+      #item2:hover{
+        background-color: #F9F3AA; 
+        
+      }
+      
+      
+      #item3{
+       
+        border: 2px solid black;
+        background-color: beige;
+      }
+      #item3:hover{
+        background-color: #F9F3AA;
+      }
+      
+      
+      
+      
+      
+      #rajasthan,#bengal,#Gujarat,#india{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 150px;
+      }
+      #homedecor{
+        height: 300px;
+        width: 290px;
+        margin: 5px;
+        border: 6px solid black;
+      }
+      #kitchen{
+        height: 300px;
+        width: 290px;
+        margin: 5px;
+        border: 6px solid black;
+      }
+      #handbags{
+        height: 300px;
+        width: 290px;
+        margin: 5px;
+        border: 6px solid black;
+      }
+      #jewellery{
+        height: 300px;
+        width: 290px;
+        margin: 5px;
+        border: 6px solid black;
+      }
+      #hometextile{
+        height: 300px;
+        width: 290px;
+        margin: 5px;
+        border: 6px solid black;
+       float: center;
+      }
+      
+      #mp{
+        height: 300px;
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 100px;
+      }
+      p{
+        text-align: center;
+        font-size: 50px;
+        color: black;
+        font-family: 'Caveat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      h1{
+        text-align: center;
+        font-family: 'Caveat', Courier, monospace;
+        font-size: 70px; 
+        color: black;
+      
+      }
+      h1:hover{
+        font-size: 100px;
+        color: #DF2E38;
+      
+      }
+      
+      
+      /* external css: flickity.css */
+      /* external css: flickity.css */
+      
+      * { box-sizing: border-box; }
+      
+      body { font-family: sans-serif; }
+      
+      .carousel {
+      background: beige
+      }
+      /* .carousel:hover{
+        background-color: #cfe5db; */
+      
+      .carousel-cell {
+      
+      margin-right: 10px;
+      border-radius: 5px;
+      
+      }
+      
+      
+      .carousel-cell img{
+        max-width: 100%;
+      }
+      #item6{
+        height: 1000px;
+        width: 100%;
+        background-color: beige;
+        /* box-shadow: 0 14px 28px rgba(7, 7, 7, 0.869), 0 10px 10px rgba(0,0,0,0.22); */
+        /* transition: .4s; */
+      
+      }
+      #item7{
+        height: 1691px;
+        width: 100%;
+        background-color: beige;
+   
+      }
+   
+      #newlaunch{
+        height: 100%px;
+        width: 100%;
+      }
+    
+  
+  
+  * 
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #cfd2d6;
+    } 
+    footer{
+      /* position: absolute; */
+      bottom: 0;
+      background: black;
+      height: auto;
+      width: 100vw;
+      padding: 40px 0 0 0;
+    }
+    /*content*/
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer p{
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    /*social -media*/
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+        border: 1.1px solid white;
+        padding: 5px;
+        border-radius: 50%;
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        width: 20px;
+        transition: color .4s ease;
+    }
+    .socials a:hover i{
+        color: dodgerblue;
+    }
+    /* copyright*/
+    .footer-copyright{
+        background: #000;
+        width: 100vw;
+        padding: 20px 20px 50px 20px;
+    }
+    .footer-copyright p{
+        font-size: 14px;
+        word-spacing: 2px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  
+  
+  
+  
+  
+    #sellers1{
+    
+      background-color: #FAA65D;
+      color: white;
+      width: 299px;
+      height: 60px;
+      text-align: center;
+       /* margin-left: 29px;  */
+       border-radius: 25px;
+      font-size: 30px;
+      font-family: 'Caveat', 'Arial Narrow', Arial, sans-serif;
+    }
